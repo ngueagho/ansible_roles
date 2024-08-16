@@ -1,0 +1,6 @@
+---
+  - name: worketyamo organisation
+    hosts: worketyamo
+    become: true
+    roles: 
+      -  nginx
